@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;   
+}
+
+.image {
+    width: 55px;
+    height: 85px;
+    margin-right: 50px;
+    float: right;
+    position: relative;
+}
+
+@media (min-width: 319px) and (max-width: 549px) {
+    .image {
+        margin-left: 40%;
+        margin-top: -50px;
+        width: 20%;
+        height: 15%;
+        justify-content: center;
+        display: inline-block;
+        position: absolute;
+    }
+}
+
+.tagger {
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    margin-left: 60px;
+    position: relative;
+}
+
+@media (min-width: 319px) and (max-width: 549px) {
+    .tagger {
+        font-size: 2rem;
+        padding-top: 70px;
+        color: #fff;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 30px;
+    }
+}
+
+.description {
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    width: 40%;
+    padding-top: 11%;
+    line-height: 22px;
+    padding-left: 60px;
+}
+
+@media (min-width: 319px) and (max-width: 549px) {
+    .description {
+        padding-left: 20px;
+        padding-top: 50%;
+        width: 80%;
+    }
+}
+
+.line {
+    background-color: rgb(250, 56, 13);
+    width: 15%;
+    height: 5px;
+    position: relative;
+    margin-left: 43%;
+    top: 30px;
+}
+
+@media (min-width: 319px) and (max-width: 549px) {
+    .line {
+        background-color: rgb(250, 56, 13);
+        width: 40%;
+        height: 5px;
+        position: relative;
+        margin-left: 30%;
+    }
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgb(92, 201, 168);
+    height: 50px;
+    width: 50px;
+    margin-top: 25px;
+    margin-left: 65px;
+    position: relative;
+}
+
+@media (min-width: 319px) and (max-width: 549px) {
+    .circle {
+        margin-left: 30px;
+        /* margin-top: 0px; */
+    }
+}
+
+.apply {
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 100px;
+    top: -35px;
+    position: relative;
+    font-weight: 500;
+}
+
+@media (min-width: 319px) and (max-width: 549px) {
+    .apply {
+       margin-left: 65px;
+       margin-top: -1px;
+    }
+}
+
+.footer {
+    color: #fff;
+    font-size: .8rem;
+    font-family: 'Ubuntu', sans-serif;
+    float: right;
+    position: relative;
+    transform: rotate(90deg);
+    bottom: 150px;
+    margin-right: -50px;
+}
+
+@media (min-width: 319px) and (max-width: 549px) {
+    .footer {
+        margin-right: -100px;
+        bottom: 40px;
+        padding-left: 20px;
+    }
+}
